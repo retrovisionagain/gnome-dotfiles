@@ -1,6 +1,6 @@
 <h1 align=center>Gnome-dotfiles</h1>
 
-![dotfile]()
+![dotfile](https://github.com/retrovisionagain/gnome-dotfiles/blob/main/screenshots/dotfile.png)
 
 ### Theme
 
@@ -19,12 +19,12 @@ AppIndicator and Kstatus ... - large name of extension,adds a tray to the top ba
 ### Fish
 
 Use config.fish and starship.toml to turn terminal like this:
-![term]()
+![term](https://github.com/retrovisionagain/gnome-dotfiles/blob/main/screenshots/term-view.png)
 
 ## Fastfetch
 
 Fastfetch runs when you open fish, in config.fish it is written which fastfetch config to use. You can change it by writing another config, for example:
-![fish-conf]()
+![fish-conf](https://github.com/retrovisionagain/gnome-dotfiles/blob/main/screenshots/fish-conf.png)
 The --config os argument points to fastfetch configs, there are many different types, just write the name of the jsonc file as an argument.
 
 ## Starship
