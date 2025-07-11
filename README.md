@@ -24,7 +24,14 @@ Use config.fish and starship.toml to turn terminal like this:
 ## Fastfetch
 
 Fastfetch runs when you open fish, in config.fish it is written which fastfetch config to use. You can change it by writing another config, for example:
-![fish-conf](https://github.com/retrovisionagain/gnome-dotfiles/blob/main/screenshots/fish-conf.png)
+```
+if status is-interactive
+  fastfetch --config os # can be arch and etc
+  starship init fish | source
+end
+
+set -g fish_greeting # also u can remove this fish greeting
+```
 The --config os argument points to fastfetch configs, there are many different types, just write the name of the jsonc file as an argument.
 
 ## Starship
